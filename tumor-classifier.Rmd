@@ -2,11 +2,7 @@
 title: "Tumor Classifying via Methods of Unsupervised Learning"
 author: "by Aleksandra Zdravkovic"
 date: "december 2020"
-output:
-  rmdformats::robobook:
-    lightbox: true
-    highlight: kate
-    keep_md: true
+output: rmarkdown::github_document
 ---
 <style>
 body {
