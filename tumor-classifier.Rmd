@@ -1,10 +1,22 @@
 ---
-output: rmarkdown::github_document
+title: "Tumor Classifying via Methods of Unsupervised Learning"
+author: "by Aleksandra Zdravkovic"
+date: "december 2020"
+output:
+  rmdformats::robobook:
+    lightbox: true
+    highlight: kate
+    keep_md: true
 ---
+<style>
+body {
+text-align: justify}
+</style>
 
 ```{r, echo = FALSE}
-knitr::opts_chunk$set(collapse=TRUE, comment="##", fig.retina=2, fig.path = "README_figs/README-")
-```
+knitr::opts_chunk$set(
+  fig.path = "README_figs/README-"
+)
 ```
 
 ```{r setup, include=FALSE}
