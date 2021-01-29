@@ -13,18 +13,15 @@ body {
 text-align: justify}
 </style>
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-<<<<<<< HEAD
-
 ```{r, echo = FALSE}
 knitr::opts_chunk$set(
   fig.path = "README_figs/README-"
 )
 ```
-=======
->>>>>>> 1f6d31a32688402336bcb1620a82c4c2a48cc117
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
 # Problem
 
