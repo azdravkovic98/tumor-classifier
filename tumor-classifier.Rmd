@@ -6,6 +6,7 @@ output:
   rmdformats::robobook:
     lightbox: true
     highlight: kate
+    keep_md: true
 ---
 <style>
 body {
@@ -15,13 +16,18 @@ text-align: justify}
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+<<<<<<< HEAD
 
 ```{r, echo = FALSE}
 knitr::opts_chunk$set(
   fig.path = "README_figs/README-"
 )
 ```
+=======
+>>>>>>> 1f6d31a32688402336bcb1620a82c4c2a48cc117
+
 # Problem
+
 Construct a classifier that predicts whether the tumor is malignant (M), or benign (B) using methods of unsupervised learning and data from accompanying file data.csv. It is known there are more benign observations.
 
 Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image.
